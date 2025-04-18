@@ -3,15 +3,6 @@
 grid_maker.py
 
 Pequeña utilidad Tkinter para **dibujar símbolos “+ / –” en una malla 8 × 8**.
-
-Novedades ↻
------------
-1. Botón **Next**  → guarda el dibujo actual en una lista interna y reinicia el tablero.
-2. Botón **Guardar** → exporta **todos** los dibujos acumulados a un único CSV
-   donde cada fila es un vector binario (longitud 64) en el orden de índices
-   mostrados en pantalla (fila por fila, de izquierda a derecha).
-
-Adicionalmente se puede seguir exportando un PNG de la cuadrícula actual.
 """
 
 from __future__ import annotations
@@ -172,8 +163,8 @@ class GridDrawer(tk.Frame):
         self.state.fill(0)
         for rect in self.rects.values():
             self.canvas.itemconfig(rect, fill="white")
-        if update_msg:
-            messagebox.showinfo("Reiniciar", "Lienzo limpio.")
+        #if update_msg:
+         #   messagebox.showinfo("Reiniciar", "Lienzo limpio.")
 
 
 # --------------------------------------------------------------------
