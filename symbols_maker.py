@@ -1,3 +1,13 @@
+# Symbols maker - Usage Instructions
+# -----------------------------------
+# This program lets you draw on an 8x8 symbols using your mouse.
+# Left-click and drag to draw (black), right-click and drag to erase (white).
+# Use the radio buttons to label your drawing as a circle (0) or a cross (1). The label is saved as the last element of the vector.
+# Click "Next" to save the current drawing and start a new one.
+# Click "Save CSV" to export all saved drawings (including the label) to a CSV file.
+# Click "Save PNG" to save the current drawing as a PNG image.
+# Click "Reset" to clear the grid, or "Exit" to close the application.
+
 import tkinter as tk
 from tkinter import messagebox, filedialog
 import numpy as np
