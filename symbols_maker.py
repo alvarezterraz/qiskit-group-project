@@ -14,7 +14,7 @@ import numpy as np
 from PIL import Image
 
 CELL_SIZE = 50
-GRID_SIZE = 8
+GRID_SIZE = 5
 
 class GridDrawer(tk.Frame):
     def __init__(self, master=None):
