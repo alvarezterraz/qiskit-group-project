@@ -8,22 +8,22 @@ May 2025.
 
 ## Team (5) members
 
-1. Iñigo Vilaseco
-2. Ignacio Fernández
-3. Pedro Álvarez
+1. Iñigo Vilaseco Extramiana
+2. Ignacio Fernández Losa
+3. Pedro José Álvarez Terraz
 4. Diego Mallada Conte
 5. Adrián Gustavo del Pozo Martín 
-6. Arturo Juárez
+6. Arturo Juárez Carrillo
 
 ## Project Overview
 
-This project implements a Variational Quantum Image Classifier that can identify different geometric patterns (horizontal, vertical, and diagonal lines) in n×n pixel images. The classifier leverages quantum computing principles to potentially offer advantages over classical machine learning approaches for specific pattern recognition tasks.
+This project implements a Variational Quantum Image Classifier that can identify different geometric patterns (horizontal, vertical, and diagonal lines) in N×N pixel images. The classifier leverages quantum computing principles to potentially offer advantages over classical machine learning approaches for specific pattern recognition tasks.
 
 The implementation uses a hybrid quantum-classical approach where:
 - Image data is encoded into quantum states using parameterized quantum circuits 
 - A custom ansatz with entangling gates captures spatial relationships between pixels
 - A classical optimizer tunes the quantum circuit parameters to minimize classification error
-- Both quantum simulation and real quantum hardware execution are demonstrated
+- Quantum simulation is supported, and the final model can be executed on real quantum hardware
 
 This work is part of the IBM Quantum Road to Practitioners (R2P) Program, exploring practical applications of quantum computing in machine learning and pattern recognition domains.
 
